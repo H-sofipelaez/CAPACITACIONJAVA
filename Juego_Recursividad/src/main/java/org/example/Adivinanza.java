@@ -9,7 +9,7 @@ public class Adivinanza {
         Random aleatorio = new Random();
         int numeroSecreto = aleatorio.nextInt(10) + 1;
         System.out.println("Bienvenido al juego de adivinanza");
-        System.out.println("Adivina un número entre 0 y 10");
+        System.out.println("Adivina un número entre 1 y 10");
 
         adivinar(leer, numeroSecreto);
         leer.close();
