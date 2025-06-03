@@ -7,7 +7,7 @@ class Division{
     public static void main(String[] args) {
         Scanner valor = new Scanner(System.in);
         System.out.println("Por favor, ingrese un numero para dividir, si es un numero menor a 1 escribirlo con comas:");
-        Double numero = valor.nextDouble();
+        double numero = valor.nextDouble();
 
         //Residuo
         double a = numero % 3;
